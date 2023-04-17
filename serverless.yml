@@ -22,3 +22,6 @@ functions:
           path: /handlers/results/{id}
           method: get
           request:
+
+plugins:
+  - serverless-offline
